@@ -9,11 +9,10 @@ const Mint: NextPage = () => {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.h1}>Mint An NFT!</h1>
+      <h1 className={styles.h1}>Mint Your IBIT NFT!</h1>
 
       <p className={styles.explain}>
-        Here is where we use our <b>NFT Drop</b> contract to allow users to mint
-        one of the NFTs that we lazy minted.
+        Join the exclusive IBIT NFT club and start earning USDT rewards.
       </p>
       <hr className={`${styles.smallDivider} ${styles.detailPageHr}`} />
 
