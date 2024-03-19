@@ -9,6 +9,8 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       {/* Top Section */}
+      <h1 className={styles.h1}>Mint and Stake Now!</h1>
+      <div className={styles.nftBoxGrid}>
         <div
           className={styles.optionSelectBox}
           role="button"
@@ -18,7 +20,7 @@ const Home: NextPage = () => {
           <Image src="/icons/drop.webp" alt="drop" width={64} height={64} />
           <h2 className={styles.selectBoxTitle}>Mint IBIT NFT</h2>
           <p className={styles.selectBoxDescription}>
-            Mint a limited edition NFT to be eligible for rewards.
+            Mint a limited edition NFT to be eligible for USDT rewards.
           </p>
         </div>
 
