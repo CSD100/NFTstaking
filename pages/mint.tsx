@@ -28,7 +28,7 @@ const Mint: NextPage = () => {
           alert(error);
         }}
       >
-        Claim An NFT
+        MINT NFT
       </Web3Button>
     </div>
   );
