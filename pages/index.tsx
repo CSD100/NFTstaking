@@ -9,8 +9,6 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       {/* Top Section */}
-      <h1 className={styles.h1}>IBIT on BNB Chain - NFT Mint and Staking</h1>
-      <div className={styles.nftBoxGrid}>
         <div
           className={styles.optionSelectBox}
           role="button"
